@@ -29,8 +29,12 @@ img {
 }
 
 body {
+  font-family: "Inter", sans-serif;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0c1c;
+  color: #fff;
   height: 100%;
 }
 
@@ -38,11 +42,4 @@ h1 {
   margin: 0;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-bottom: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
